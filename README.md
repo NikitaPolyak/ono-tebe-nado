@@ -1,1 +1,1 @@
-<https://github.com/NikitaPolyak/ono-tebe-nado>
+https://github.com/NikitaPolyak/ono-tebe-nado
