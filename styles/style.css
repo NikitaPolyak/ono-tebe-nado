@@ -29,12 +29,6 @@
   list-style-type: circle;
 }
 .header__links-list-item_no-bullit {
-  color: #000;
-  font-family: Raleway, 'Arial', sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   list-style-type: none;
 }
 .header__link_active .header__link {
@@ -83,44 +77,31 @@
 .cover__title {
   position: relative;
   padding-top: 165px;
+  color: #fff;
+  font-family: Raleway, 'Arial', sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .aligned-text {
   display: block;
 }
 .aligned-text_left {
-  color: #fff;
-  font-family: Raleway, 'Arial', sans-serif;
-  font-size: 100px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 115%;
   letter-spacing: 30px;
-  text-transform: uppercase;
   padding-left: 50px;
 }
 .aligned-text_center {
-  color: #fff;
-  font-family: Raleway, 'Arial', sans-serif;
-  font-size: 100px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 100%;
   letter-spacing: 30px;
-  text-transform: uppercase;
   text-align: center;
   margin-right: 58px;
   margin-top: 20px;
 }
 .aligned-text_right {
-  color: #fff;
-  text-align: right;
-  font-family: Raleway, 'Arial', sans-serif;
-  font-size: 100px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 100%; /* 100px */
+  line-height: 100%;
   letter-spacing: 60px;
-  text-transform: uppercase;
   text-align: end;
   margin-right: 50px;
   margin-top: 20px;
