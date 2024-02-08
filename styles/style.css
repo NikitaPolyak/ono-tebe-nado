@@ -5,14 +5,16 @@
 .header {
   width: 1052px;
   margin: 92px 24px 96px;
+  padding-right: 30px;
+  padding-left: 30px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   column-gap: 13px;
 }
 
 .header__menu {
+  justify-self: start;
   align-self: center;
-  justify-self: center;
 }
 
 .header__links-list {
@@ -40,10 +42,9 @@
 .header__address{
   justify-self: end;
   align-self: end;
-  margin-right: 30px;
 }
 
-.address__text {
+.address {
   color: #000;
   font-family: Raleway, "Arial", sans-serif;
   font-size: 18px;
@@ -102,8 +103,7 @@
 
 .aligned-text_center { 
   text-align: center;
-  line-height: 132%;
-  margin-right: 58px; 
+  line-height: 132%; 
 } 
 
 .aligned-text_right { 
